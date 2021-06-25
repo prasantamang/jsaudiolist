@@ -3,9 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: orange;
+    background-image: url(images/adrian-korte-5gn2soeAc40-unsplash.jpg);
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
 }
 .page-wrapper{
     width: 80%;
