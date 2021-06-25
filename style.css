@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.page-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 286px 0px;
+}
+.box{
+    width:100px ;
+    padding: 10px 0px;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+.box:hover{
+    border: 3px solid red;
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+      0 24px 46px var(--card-hover);
+}
